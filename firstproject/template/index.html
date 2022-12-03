@@ -18,9 +18,9 @@
 <body>
     <form action="/home/" method="post">
         {% csrf_token %}
-        pname: <input type="text" name="uname" /><br><br>
-        rate: <input type="text" name="urate" /><br><br>
-        quan: <input type="text" name="uquan" /><br><br>
+        pname: <input type="text" name="uname" placeholder="Enter name" /><br><br>
+        rate: <input type="text" name="urate" placeholder="Enter rate" /><br><br>
+        quan: <input type="text" name="uquan" placeholder="Enter quantity" /><br><br>
         <button>register</button>
     </form>
 </body>

@@ -3,7 +3,6 @@ from django.shortcuts import render
 
 
 def test(request):
-
     print("this is my first jango application")
     return HttpResponse("<h1> this is my heading in jango framework </h1>")
 
